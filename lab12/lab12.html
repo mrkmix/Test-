@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+
+            <legend>Данные о пользователе</legend>
+
+            <p>
+                <label for="surname">Фамилия:</label> <br>
+                <input type="text" id="surname" name="usersurname" placeholder="Иванов" value="oioioi" readonly>
+
+
+                <label >Фамилия:
+                <input type="text"  name="usersurname" placeholder="Иванов" required >
+                </label> <br>
+            </p>
+
+            <p>
+                <label for="name">Имя:</label><br>
+                <input type="text" id="name" name="username" title="required" placeholder="Иван">
+            </p>
+
+            <p>
+                <label for="middlename">Отчество</label><br>
+                <input type="text" id="middlename" name="usermiddlename" placeholder="Иванович" title="required">
+
+            </p>
+
+            <p>
+                <input type="radio" name="sex" value="M." id="radio_1">
+                <label for="radio_1">Мужской</label>
+                <br>
+                <input type="radio" name="sex" value="Ms." id="radio_2">
+                <label for="radio_2">Женский</label>
+            </p>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Анкета</legend>
+            <p>Какую специальность вы считаете перспективной?</p>
+            <input type="checkbox" name="subject" value="1" id="first" checked>
+            <label for="first"> Издательское дело</label><br>
+            <input type="checkbox" name="subject" value="2" id="second">
+            <label for="second"> Химия</label><br>
+            <input type="checkbox" name="subject" value="3" id="third">
+            <label for="third"> Программирование</label><br>
+            <input type="checkbox" name="subject" value="4" id="fourth">
+            <label for="fourth">Дизайн электронных и веб-изданий</label>
+        </fieldset>
+
+        <label for="dop.subject"><span>Дополнительные предметы</span></label>
+        <select id="dop_subject" name="dop_subject">
+            <optgroup label="1.01 Дизайн электронных и веб-изданий">
+                <option value="design">Лекция 01:Виды сайтов </option>
+                <option value="design">Лекция 02:Прототип</option>
+                <option value="design">Лекция 03:Макет</option>
+                <optgroup label="1.02 Компьютерные языки разметки"></optgroup>
+                <option value="html/css">Лекция 01: HTML</option>
+                <option value="html/css">Лекция 02: CSS</option>
+        </select>
+<p>
+        <label for="curriculum">Курс</label>
+        <input type="number" max="4" min="1" name="num" value="curriculum" id="curriculum">
+
+</p>
+
+
+    <input type="file" >
+    <p>
+        <button type="submit">Отправить</button>
+        <input type="reset" value="Очистить"> 
+    </p>
+    
+
+    </form>
+
+</body>
+
+</html>

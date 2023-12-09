@@ -1,0 +1,27 @@
+ul li {
+    text-transform: uppercase;
+}
+p.first a{
+color: green;
+}
+p .first a{
+    color:green;
+}
+.first a{
+    color: green;
+}
+
+div b{
+    font-size: 30px;
+    color: blue;
+}
+em b{
+    color: blue;
+}
+em > b{
+    font-size: 25px;
+    color: blue;
+}
+span + i{
+    color: red;
+}

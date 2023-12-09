@@ -1,0 +1,65 @@
+.figures div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+}
+
+.figures div:nth-child(1) {
+
+    background-color: red;
+    border-radius: 50% 0%;
+}
+
+.figures div:nth-child(2) {
+
+    background-color: red;
+    border-radius: 20%;
+}
+
+.figures div:nth-child(3) {
+    background-color: red;
+    border-radius: 70% 5% 60%;
+}
+
+.figures div:nth-child(4) {
+    border-radius: 50%;
+    background-color: red;
+}
+
+.figures div:nth-child(5) {
+    border-radius: 50% 50% 0% 0%;
+    background-color: red;
+}
+
+.figures div:nth-child(6) {
+    border-radius: 20% 20% 50% 50%;
+    background-color: red;
+}
+
+.figures div:nth-child(7) {
+    background-color: blue;
+    border-radius: 100% 0% 100% 0%;
+}
+
+.header {
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: flex;
+ 
+}
+
+.header h1 {
+    background-color: white;
+    text-align: center;
+    mix-blend-mode: lighten;
+}
+.fence{
+    margin-top: 50px;
+    background-image: url(zabor.jpg);
+    width: 900px;
+    height: 300px;
+}

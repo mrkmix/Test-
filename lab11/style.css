@@ -1,0 +1,54 @@
+
+ div p::first-letter{
+    margin: 0;
+    padding-top: 0;
+font-size:60px;
+color: blue;
+float: left
+}
+
+div p::first-line{
+    color: red;
+}
+
+div p::before{
+    content: "Текст перед абзацем";
+    color: blueviolet;
+}
+div p::after{
+    content: "Текст после абзаца";
+    color: blueviolet;
+}
+
+p::before{
+    content:"«";
+    color: blue;
+}
+p::after{
+    content:"»";
+    color: red;
+}
+div.navigation{
+    height: 40px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: blue;
+    border: solid;
+    border-color: blue;
+}
+div.navigation:hover{
+    font-weight: bolder;
+}
+
+::placeholder{
+    color: orchid;
+}
+
+input{
+    margin-bottom:10px;
+}
+textarea::placeholder{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

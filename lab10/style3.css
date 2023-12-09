@@ -1,0 +1,105 @@
+#title {
+    width: 35%;
+
+    color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.first {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-indent: 30px;
+    font-size: 25px;
+    word-spacing: 5px;
+
+    text-align: justify;
+}
+
+div.first p>b {
+    color: red;
+}
+
+div.second p>b {
+    color: red;
+}
+
+div.second {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.second p b em {
+    color: blue;
+}
+
+#subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    color: blue;
+}
+
+div.third {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subtitle2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    color: blue;
+}
+
+div.fourth {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.fourth p b em {
+    color: blue;
+}
+
+div.final {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div.final p b {
+    color: red;
+}
+
+div.final p i:first-of-type {
+    color: blue;
+}
+
+div.final p i+i {
+    color: blue;
+}
+
+a[target="_blank"]{
+color:brown;
+}
+a[href^="lab"]{
+    color: chartreuse;
+}
+a[href$="terest.com"]{
+    color: darkmagenta;
+}
+p[name*="abso"]{
+    font-style: italic;
+}
+input[type="text"],
+input[type="radio"]{
+    width: 1000px;
+}

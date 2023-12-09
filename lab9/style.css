@@ -1,0 +1,30 @@
+p{
+    color: blue;
+    text-align: justify;
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+}
+
+h2{
+    color:green;
+    text-align:right
+}
+
+h3{
+    color: orange;
+}
+
+#first{
+    color: green;
+    width: 300px;
+}
+
+#second{
+    color:red;
+    width: 400px;
+    height:200px;
+    text-align: center;
+}

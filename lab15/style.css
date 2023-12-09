@@ -1,0 +1,97 @@
+.lighter {
+    height: 500px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.circle:nth-child(1) {
+    background-color: red;
+}
+
+.circle:nth-child(2) {
+    background-color: yellow;
+}
+
+.circle:nth-child(3) {
+    background-color: lightgreen;
+}
+
+.sunset {
+    position: relative;
+}
+
+.sunset img {
+    margin-top: 20px;
+    height: 400px;
+}
+
+#sun {
+    position: absolute;
+    height: 200px;
+    left: 200px;
+
+}
+
+.bg {
+    border: solid black 3px;
+    height: 300px;
+    position: relative;
+}
+
+.bg img {
+    height: 30px;
+    margin-left: auto;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 5%;
+    margin-top: 20px;
+    position: sticky;
+    bottom: 10px;
+}
+
+#arrow {
+    height: 50px;
+    position: sticky;
+    margin-left: 1700px;
+    bottom: 0;
+
+}
+
+.last{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+.last img{
+    height: 500px;
+    width: 300px;
+    margin-left:50vh;
+
+}
+.text{
+    height: 250px;
+width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(100%, 0%);
+
+}

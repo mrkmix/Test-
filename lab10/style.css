@@ -1,0 +1,45 @@
+.text{
+    font-size: 25px;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color:blue;
+    cursor:pointer;
+}
+a:active{
+    text-transform: uppercase;
+    color:blueviolet
+}
+ul li:nth-child(even){
+    color: blue;
+}
+.first li:nth-child(odd){
+    color:burlywood;
+}
+
+tr:nth-child(odd){
+    background:burlywood;
+}
+tr:nth-child(even){
+    background:cadetblue;
+}
+tr:hover{
+    background: lightpink;
+}
+.second li:nth-child(1){
+    color: red;
+}
+.second li:nth-last-child(2){
+    color:cyan;
+}
+ul:first-of-type{
+    font-size: 30px;
+}
+.third li:nth-last-child(2){
+    color: violet;
+}
