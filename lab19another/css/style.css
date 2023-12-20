@@ -213,14 +213,6 @@ font-family: Rubik Mono One;
 font-size: 14px;
 letter-spacing: 1.54px;
 }
-img[alt="rocket"]:hover{
-    transition: 1.5s;
-    transform: scale(1.1);
-    filter: drop-shadow(0px 0px 40px #F98513);
-}
-img[alt="rocket"]{
-    transition: 1.5s;
-}
 img[alt="mercury"]:hover{
     transition: 1s;
     transform: scale(1.2);
